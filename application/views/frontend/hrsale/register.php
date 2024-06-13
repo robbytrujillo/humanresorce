@@ -10,27 +10,27 @@
 				<?php $hidden = array('register' => '1');?>
                 <?php echo form_open('employer/create_account/', $attributes, $hidden);?>					
 				<p class="form-row form-row-wide">
-					<label for="first_name">Company Name:
+					<label for="first_name">Nama Perusahaan:
 						<i class="ln ln-icon-Male"></i>
 						<input type="text" class="input-text" name="company_name" id="company_name1" value="" />
 					</label>
 				</p>
                 
                 <p class="form-row form-row-wide">
-					<label for="first_name">First Name:
+					<label for="first_name">nama Depan:
 						<i class="ln ln-icon-Male"></i>
 						<input type="text" class="input-text" name="first_name" id="first_name1" value="" />
 					</label>
 				</p>
                 <input type="hidden" name="hrsale_view" value="1" />
 				<p class="form-row form-row-wide">
-					<label for="last_name">Last Name:
+					<label for="last_name">Nama Belakang:
 						<i class="ln ln-icon-Male"></i>
 						<input type="text" class="input-text" name="last_name" id="last_name1" value="" />
 					</label>
 				</p>	
 				<p class="form-row form-row-wide">
-					<label for="email2">Email Address:
+					<label for="email2">Alamat Email:
 						<i class="ln ln-icon-Mail"></i>
 						<input type="text" class="input-text" name="email" id="email1" value="" />
 					</label>
@@ -43,7 +43,7 @@
 					</label>
 				</p>
                 <p class="form-row form-row-wide">
-					<label for="contact_number">Contact Number:
+					<label for="contact_number">Nomor Handphone:
 						<i class="ln ln-icon-Phone-2"></i>
 						<input type="text" class="input-text" name="contact_number" id="contact_number1" value="" />
 					</label>
@@ -52,7 +52,7 @@
                     <h5>Logo</h5>
                     <label class="upload-btn">
                         <input type="file" id="company_logo" name="company_logo" />
-                        Browse
+                        Jelajahi
                     </label>
                 </p>
 				<p class="form-row">

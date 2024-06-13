@@ -4,23 +4,23 @@
   <form method="post" class="register" enctype="multipart/form-data" action="<?php echo site_url('user/update');?>" id="xin-form">
     <div class="eight columns">
       <p class="form-row form-row-wide">
-        <label for="first_name">First Name
+        <label for="first_name">Nama Depan
           <input type="text" class="input-text" name="first_name" id="first_name" value="<?php echo $first_name;?>" />
         </label>
       </p>
       <p class="form-row form-row-wide">
-        <label for="email2">Email Address
+        <label for="email2">Alamat Email
           <input type="text" class="input-text" name="email" id="email2" value="<?php echo $email;?>" />
         </label>
       </p>
       <p class="form-row form-row-wide">
-        <label for="contact_number">Contact Number
+        <label for="contact_number">Nomor Handphone
           <input type="text" class="input-text" name="contact_number" id="contact_number" value="<?php echo $contact_number;?>" />
         </label>
       </p>
       <p class="form-row">
             <div class="select">
-                <label for="gender">Gender
+                <label for="gender">Jenis Kelamin
                 <select data-placeholder="Select Gender" name="gender" class="chosen-select">
                     <option value=""></option>
                     <option value="Male" <?php if($gender=='Male'):?> selected="selected"<?php endif;?>>Male</option>
@@ -30,7 +30,7 @@
             </div>
       </p>
       <p class="form-row">
-        <h5>User Photo</h5>
+        <h5>foto</h5>
         <label class="upload-btn">
             <input type="file" id="photo" name="photo" />
             <i class="fa fa-upload"></i> Browse
@@ -40,12 +40,12 @@
     </div>
     <div class="eight columns">
       <p class="form-row form-row-wide">
-        <label for="last_name">Last Name
+        <label for="last_name">Nama Belakang
           <input type="text" class="input-text" name="last_name" id="last_name" value="<?php echo $last_name;?>" />
         </label>
       </p>
       <p class="form-row form-row-wide">
-        <label for="username2">Address
+        <label for="username2">Alamat
           <input type="text" class="input-text" placeholder="Address Line 1" name="address_1" id="address_1" value="<?php echo $address_1;?>" />
           <br /><input type="text" class="input-text" placeholder="Address Line 2" name="address_2" id="address_2" value="<?php echo $address_2;?>" />
         </label>
@@ -57,7 +57,7 @@
       </p>
       <p class="form-row">
         <div class="select">
-            <label for="country">Country
+            <label for="country">Negara
             <select data-placeholder="Select Country" id="country" name="country" class="chosen-select">
                 <option value=""></option>
                 <?php foreach($all_countries as $country) {?>

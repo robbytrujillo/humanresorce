@@ -49,10 +49,10 @@
 
 				<li><a href="<?php echo site_url('');?>">Home</a><li>
 
-				<li><a href="<?php echo site_url('jobs');?>">Search Jobs</a></li>
-                <li><a href="<?php echo site_url('jobs/categories');?>">Browse Categories</a></li>
-                <li><a href="<?php echo site_url('page/view/');?>xl9wkRy7tqOehBo6YCDjFG2JTucpKI4gMNsn8Zdf">About Us</a></li>
-                <li><a href="<?php echo site_url('contact_us');?>">Contact Us</a></li>
+				<li><a href="<?php echo site_url('jobs');?>">Pekerjaan</a></li>
+                <li><a href="<?php echo site_url('jobs/categories');?>">Kategori</a></li>
+                <li><a href="<?php echo site_url('page/view/');?>xl9wkRy7tqOehBo6YCDjFG2JTucpKI4gMNsn8Zdf">Tentang Kami</a></li>
+                <li><a href="<?php echo site_url('contact_us');?>">Kontak</a></li>
                 <?php if(!empty($session)){ ?>
                 <li><a href="#"><i class="fa fa-user"></i> My Profile</a>
                 <ul>

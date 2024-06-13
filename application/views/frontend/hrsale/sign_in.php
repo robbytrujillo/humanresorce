@@ -27,7 +27,7 @@
 					</p>
 
 					<p class="lost_password">
-						<a href="<?php echo site_url('employer/forgot_password');?>" >Lost Your Password?</a>
+						<a href="<?php echo site_url('employer/forgot_password');?>" >Lupa Password?</a>
 					</p>
 					
 				<?php echo form_close(); ?>

@@ -26,7 +26,7 @@
 					</p>
 
 					<p class="lost_password">
-						<a href="<?php echo site_url('employer/sign_in');?>" >Remember Password?</a>
+						<a href="<?php echo site_url('employer/sign_in');?>" >Ingat kata Sandi?</a>
 					</p>
 					
 				<?php echo form_close(); ?>

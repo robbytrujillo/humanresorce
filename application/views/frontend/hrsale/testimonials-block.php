@@ -6,18 +6,19 @@
 			<div class="testimonials-slider">
 				  <ul class="slides">
 				    <li>
-				      <p>I have already heard back about the internship I applied through Job Finder, that's the fastest job reply I've ever gotten and it's so much better than waiting weeks to hear back.
-				      <span>Collis Ta'eed, Envato</span></p>
+				      <p>Pesantren adalah institusi yang efektif menyiapkan generasi masa depan , oleh karena itu pendidikan di pesantren harus dirancang untuk mengantisipasi kebutuhan masa mendatang.
+						 Pendidikan masa depan akan ditentukan oleh tiga kebutuhan mendasar yaitu Karakter (Akhlak), Kempetisi dan Literasi (Keterbukaan Wawasan).Sebagai sekolah berbasis pesantren dan teknologi informasi, In Shaa Allah IHBS dirancang untuk menyiapkan kebutuhan tersebut.
+				      <span>H. Anies Rasyid Baswedan, S.E., M.P.P., Ph.D.</span></p>
 				    </li>
 
 				    <li>
-				      <p>Nam eu eleifend nulla. Duis consectetur sit amet risus sit amet venenatis. Pellentesque pulvinar ante a tincidunt placerat. Donec dapibus efficitur arcu, a rhoncus lectus egestas elementum.
-				      <span>John Doe</span></p>
+				      <p>Selama saya sekolah di IHBS saya mendapatkan banyak hal baru yang saya tidak bisa dapatkan di sekolah lain Kenapa karena almutazam adalah gerbang pertama saya untuk belajar keberanian mencoba banyak hal di mana diantaranya adalah organisasi, akademik, perlombaan dan keagamaan yang akhirnya membentuk diri saya saat ini.
+				      <span>Fulan</span></p>
 				    </li>
 				    
 				    <li>
-				      <p>Maecenas congue sed massa et porttitor. Duis placerat commodo ex, ut faucibus est facilisis ac. Donec eleifend arcu sed sem posuere aliquet. Etiam lorem metus, suscipit vel tortor vitae.
-				      <span>Tom Smith</span></p>
+				      <p>Selama 3 tahun kami menempuh pendidikan di IHBS , kami dididik oleh guru yang ikhlas dalam menyampaikan ilmunya dan kami senantiasa diarahkan untuk menjadi seorang mukmin yang baik serta menjadi generasi penerus yang berjiwa qur’ani dan berwawasan
+				      <span>Fulanah</span></p>
 				    </li>
 
 				  </ul>
