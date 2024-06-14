@@ -17,7 +17,7 @@
 				</div>
 
 				<div class="caption sfb" data-x="center" data-y="400" data-speed="400" data-start="1600" data-easing="easeOutExpo">
-					<a href="<?php echo site_url('employer/post_job');?>" class="slider-button">Post a Job</a>
+					<a href="<?php echo site_url('employer/post_job');?>" class="slider-button">Posting Pekerjaan</a>
 				</div>
 			</li>
 		</ul>
@@ -213,7 +213,7 @@
 								<a href="<?php echo site_url('jobs/detail/').$job->job_url;?>"><h4><?php echo $job->job_title;?> <span class="<?php echo $clS;?>"><?php echo $jt_type;?></span></h4></a>
 								<span><i class="ln ln-icon-Clock-Back"></i> <?php echo $time_ago?></span>
 								<p><?php echo htmlspecialchars_decode($job->short_description);?></p>
-								<a href="<?php echo site_url('jobs/detail/').$job->job_url;?>" class="button">Apply For This Job</a>
+								<a href="<?php echo site_url('jobs/detail/').$job->job_url;?>" class="button">Lamar Pekerjaan Ini</a>
 							</div>
 						</li>
                        <?php } ?> 

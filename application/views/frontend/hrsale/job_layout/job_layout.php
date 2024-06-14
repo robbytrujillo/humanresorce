@@ -70,7 +70,7 @@
                 <?php } ?>
 			</ul>
 			<ul class="responsive float-right">
-				<li><a href="<?php echo site_url('employer/post_job');?>"><i class="ln ln-icon-Pencil"></i> POST A JOB</a></li>
+				<li><a href="<?php echo site_url('employer/post_job');?>"><i class="ln ln-icon-Pencil"></i> PASANG PEKERJAAN</a></li>
 			</ul>
 		</nav>
 
@@ -130,7 +130,7 @@
 		<?php } ?>
         <?php if($this->router->fetch_method()=='sign_in') { ?>
         <div class="six columns">
-			<a href="<?php echo site_url('employer/signup');?>" class="button">Register, It’s Free!</a>
+			<a href="<?php echo site_url('employer/signup');?>" class="button">Daftar, Gratis!</a>
 		</div>
         <?php } ?>
 	</div>
@@ -151,25 +151,25 @@
 				$cquery = $this->db->query($csql);
 				$category_info = $cquery->result();
 				?>
-                <span>We found <?php echo $count_search_jobs;?> jobs matching:</span>
+                <span>Kami menemukan <?php echo $count_search_jobs;?> pekerjaan sesuai:</span>
                 <h2><?php echo ucwords(str_replace('-',' ',$category_info[0]->category_name));?></h2>
                 <?php } else if($this->uri->segment(3)=='type') {
 					$csql = "SELECT * FROM xin_job_type WHERE type_url = '".$this->uri->segment(4)."'";
 					$cquery = $this->db->query($csql);
 					$type_info = $cquery->result();
 				?>
-                <span>We found <?php echo $count_search_jobs;?> jobs matching:</span>
+                <span>Kami menemukan<?php echo $count_search_jobs;?> pekerjaan sesuai:</span>
                 <h2><?php echo ucwords(str_replace('-',' ',$type_info[0]->type));?></h2>
                 <?php } else {?>
                 	<?php if($this->input->get("search")) {?>
-            		<h2>We found <?php echo $count_search_jobs;?> active jobs</h2>
+            		<h2>Kami menemukan <?php echo $count_search_jobs;?> pekerjaan aktif</h2>
                     <?php } else {?>
-                    <h2>We found <?php echo $this->Job_post_model->all_active_jobs();?> active jobs</h2>
+                    <h2>Kami menemukan <?php echo $this->Job_post_model->all_active_jobs();?> pekerjaan aktif</h2>
                     <?php } ?>
                 <?php } ?>
             <?php } ?>
             <div class="six columns">
-                <a href="<?php echo site_url('employer/post_job');?>" class="button">Post a Job, It’s Free!</a>
+                <a href="<?php echo site_url('employer/post_job');?>" class="button">Posting Pekerjaan, Gratis!</a>
             </div>
 		</div>
 

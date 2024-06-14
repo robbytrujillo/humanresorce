@@ -219,7 +219,7 @@
 								<a href="<?php echo site_url('jobs/detail/').$job->job_url;?>"><h4><?php echo $job->job_title;?> <span class="<?php echo $clS;?>"><?php echo $jt_type;?></span></h4></a>
 								<span><i class="ln ln-icon-Clock-Back"></i> <?php echo $time_ago?></span>
 								<p><?php echo htmlspecialchars_decode($job->short_description);?></p>
-								<a href="<?php echo site_url('jobs/detail/').$job->job_id;?>" class="button">Apply For This Job</a>
+								<a href="<?php echo site_url('jobs/detail/').$job->job_id;?>" class="button">Lamar Pekerjaan Ini</a>
 							</div>
 						</li>
                        <?php } ?> 
@@ -237,13 +237,13 @@
 <!-- Infobox -->
 <div class="infobox">
 	<div class="container">
-		<div class="sixteen columns">Start Building Your Own Job Board Now <a href="<?php echo site_url('user/sign_in');?>">Get Started</a></div>
+		<div class="sixteen columns">Mulailah Membangun Papan Pekerjaan Anda Sendiri Sekarang <a href="<?php echo site_url('user/sign_in');?>">Memulai</a></div>
 	</div>
 </div>
 <?php } ?>
 
 <!-- Clients Carousel -->
-<h3 class="centered-headline">Clients Who Have Trusted Us <span>The list of clients who have put their trust in us includes:</span></h3>
+<h3 class="centered-headline">Klien Yang Telah Mempercayai Kami <span>Daftar klien yang telah menaruh kepercayaannya kepada kami antara lain.</span></h3>
 <div class="clearfix"></div>
 
 <div class="container">

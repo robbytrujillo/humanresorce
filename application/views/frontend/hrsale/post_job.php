@@ -8,13 +8,13 @@
                 <?php echo form_open('employer/add_job/', $attributes, $hidden);?>
 			<!-- Title -->
 			<div class="form">
-				<h5>Job Title</h5>
+				<h5>Judul Pekerjaan</h5>
 				<input class="search-field" type="text" name="job_title" placeholder="" value=""/>
 			</div>
 
 			<!-- Job Type -->
 			<div class="form">
-				<h5>Job Type</h5>
+				<h5>Tipe Pekerjaan</h5>
 				<select data-placeholder="Job Type" name="job_type" class="chosen-select-no-single">
 					<option value=""></option>
                     <?php foreach($all_job_types->result() as $job_type) {?>
@@ -27,7 +27,7 @@
 			<!-- Choose Category -->
 			<div class="form">
 				<div class="select">
-					<h5>Category</h5>
+					<h5>Kategori</h5>
 					<select id="category_id" name="category_id" data-placeholder="Choose Category" class="chosen-select">
 						<option value=""></option>
                         <?php foreach($all_job_categories as $category):?>
@@ -39,31 +39,31 @@
 
 			<!-- Description -->
 			<div class="form">
-				<h5>Short Description</h5>
+				<h5>Deskripsi Singkat</h5>
 				<textarea class="" name="short_description" cols="40" rows="1" id="short_description" spellcheck="true"></textarea>
 			</div>
             
             <!-- Description -->
 			<div class="form">
-				<h5>Description</h5>
+				<h5>Deskripsi</h5>
 				<textarea class="WYSIWYG" name="long_description" cols="40" rows="3" id="long_description" spellcheck="true"></textarea>
 			</div>
             
             <!-- Vacancy -->
 			<div class="form">
-				<h5>Number of Positions</h5>
+				<h5>Jumlah Jabatan</h5>
 				<input type="text" name="vacancy" placeholder="Enter the job vacancy">
 			</div>
 
 			<!-- TClosing Date -->
 			<div class="form">
-				<h5>Closing Date</h5>
+				<h5>Tanggal Penutupan</h5>
 				<input data-role="date" class="date" type="text" name="date_of_closing" placeholder="yyyy-mm-dd">
 			</div>
 
 			<!-- Gender -->
 			<div class="form">
-				<h5>Gender</h5>
+				<h5>Jenis Kelamin</h5>
 				<select data-placeholder="Gender" name="gender" class="chosen-select-no-single">
 					<option value="0"><?php echo $this->lang->line('xin_gender_male');?></option>
                     <option value="1"><?php echo $this->lang->line('xin_gender_female');?></option>
@@ -73,7 +73,7 @@
             
             <!-- Experience -->
 			<div class="form">
-				<h5>Minimum Experience</h5>
+				<h5>Pengalaman Minimal</h5>
 				<select data-placeholder="Minimum Experience" name="experience" class="chosen-select-no-single">
 					<option value="0"><?php echo $this->lang->line('xin_job_fresh');?></option>
                     <option value="1"><?php echo $this->lang->line('xin_job_experience_define_1year');?></option>

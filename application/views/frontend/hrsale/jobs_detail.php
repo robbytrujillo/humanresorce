@@ -77,7 +77,7 @@ $job_category = $this->Recruitment_model->read_category_info($category_id);?>
 
 		<!-- Sort by -->
 		<div class="widget">
-			<h4>Overview</h4>
+			<h4>Ringkasan</h4>
 
 			<div class="job-overview">
 				

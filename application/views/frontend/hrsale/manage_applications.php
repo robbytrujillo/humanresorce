@@ -10,7 +10,7 @@ if(is_null($result)){
 	<!-- Table -->
 	<div class="sixteen columns">
 
-		<p class="margin-bottom-25" style="float: left;">The job applications for <strong><a href="<?php echo site_url('jobs/detail/').$result[0]->job_url;?>"><?php echo $result[0]->job_title?></a></strong> are listed below.</p>
+		<p class="margin-bottom-25" style="float: left;">Lamaran pekerjaan untuk <strong><a href="<?php echo site_url('jobs/detail/').$result[0]->job_url;?>"><?php echo $result[0]->job_title?></a></strong> tercantum di bawah ini.</p>
 	</div>
 	<!-- Applications -->
 	<div class="sixteen columns">
@@ -32,13 +32,13 @@ if(is_null($result)){
 				<div class="info">
 					<span><?php echo $r->full_name;?></span>
 					<ul>
-						<li><a href="<?php echo site_url('download/')?>?type=resume&filename=<?php echo $r->job_resume;?>"><i class="fa fa-file-text"></i> Download CV</a></li>
+						<li><a href="<?php echo site_url('download/')?>?type=resume&filename=<?php echo $r->job_resume;?>"><i class="fa fa-file-text"></i> Unduh CV</a></li>
 					</ul>
 				</div>
 				
 				<!-- Buttons -->
 				<div class="buttons">
-					<a href="#three-1" class="button gray app-link"><i class="fa fa-plus-circle"></i> Show Details</a>
+					<a href="#three-1" class="button gray app-link"><i class="fa fa-plus-circle"></i> Tampilkan Detail</a>
 				</div>
 				<div class="clearfix"></div>
 
@@ -50,13 +50,13 @@ if(is_null($result)){
 				<a href="#" class="close-tab button gray"><i class="fa fa-close"></i></a>
 			    <!-- Third Tab -->
 			    <div class="app-tab-content"  id="three-1">
-					<i>Full Name:</i>
+					<i>Nama Lengkap:</i>
 					<span><?php echo $r->full_name;?></span>
 
 					<i>Email:</i>
 					<span><?php echo $r->email;?></span>
 
-					<i>Message:</i>
+					<i>Pesan:</i>
 					<span><?php echo $r->message;?> </span>
 			    </div>
 
@@ -65,7 +65,7 @@ if(is_null($result)){
 			<!-- Footer -->
 			<div class="app-footer">
 				<ul>
-					<li><i class="fa fa-file-text-o"></i> New</li>
+					<li><i class="fa fa-file-text-o"></i> Baru</li>
 					<li><i class="fa fa-calendar"></i> <?php echo $created_at;?></li>
 				</ul>
 				<div class="clearfix"></div>

@@ -6,15 +6,15 @@ $iuser = $this->Xin_model->read_user_info($session['c_user_id']);?>
 	<!-- Table -->
 	<div class="sixteen columns">
 
-		<p class="margin-bottom-25">Your applied jobs listings are shown in the table below.</p>
+		<p class="margin-bottom-25">Daftar pekerjaan yang Anda lamar ditunjukkan pada tabel di bawah.</p>
 
 		<table class="manage-table responsive-table">
 
 			<tr>
-				<th><i class="fa fa-file-text"></i> Title</th>
-				<th><i class="fa fa-check-square-o"></i> Job Type</th>
-				<th><i class="fa fa-calendar"></i> Date Applied</th>
-				<th><i class="fa fa-calendar"></i> Date Expires</th>
+				<th><i class="fa fa-file-text"></i> Judul</th>
+				<th><i class="fa fa-check-square-o"></i> Jenis Pekerjaan</th>
+				<th><i class="fa fa-calendar"></i> Tanggal Berlaku</th>
+				<th><i class="fa fa-calendar"></i> Tanggal Kedaluwarsa</th>
 				<th><i class="fa fa-user"></i> Resume</th>
 				<th></th>
 			</tr>

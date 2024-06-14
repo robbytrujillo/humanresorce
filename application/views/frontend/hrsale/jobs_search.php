@@ -99,7 +99,7 @@
 			</a>
           <?php } ?>
           <?php } else {?>
-          <h3 class="headline with-border margin-top-20 margin-bottom-35">No job found..</mark></span></h3>
+          <h3 class="headline with-border margin-top-20 margin-bottom-35">Tidak ada pekerjaan yang ditemukan..</mark></span></h3>
           <?php } ?>  
 		</div>
 		<div class="clearfix"></div>

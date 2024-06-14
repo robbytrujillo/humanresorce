@@ -20,16 +20,16 @@
 	<!-- Table -->
 	<div class="sixteen columns">
 
-		<p class="margin-bottom-25">Your listings are shown in the table below.</p>
+		<p class="margin-bottom-25">Daftar Anda ditampilkan pada tabel di bawah.</p>
 
 		<table class="manage-table responsive-table">
 
 			<tr>
-				<th><i class="fa fa-file-text"></i> Title</th>
-				<th><i class="fa fa-check-square-o"></i> Category</th>
-				<th><i class="fa fa-life-bouy"></i> Job Type</th>
-				<th><i class="fa fa-calendar"></i> Date Posted</th>
-				<th><i class="fa fa-user"></i> Applications</th>
+				<th><i class="fa fa-file-text"></i> Judul</th>
+				<th><i class="fa fa-check-square-o"></i> Kategori</th>
+				<th><i class="fa fa-life-bouy"></i> Jenis Pekerjaan</th>
+				<th><i class="fa fa-calendar"></i> Posting Tanggal</th>
+				<th><i class="fa fa-user"></i> Aplikasi</th>
 				<th></th>
 			</tr>
 					
@@ -69,12 +69,12 @@
 				<td class="centered">
                 <?php $chk_job = $this->Recruitment_model->check_jobs_applications($r->job_id);?>
                 <?php if($chk_job > 0):?>
-                <a href="<?php echo site_url('employer/manage_applications/').$r->job_url;?>" class="button">Show (<?php echo $chk_job;?>)</a>
+                <a href="<?php echo site_url('employer/manage_applications/').$r->job_url;?>" class="button">Tampil (<?php echo $chk_job;?>)</a>
                 <?php else:?>-
                 <?php endif;?>
                 </td>
 				<td class="action">
-					<a href="<?php echo site_url('employer/edit_job/').$r->job_url;?>"><i class="fa fa-pencil"></i> Edit</a>
+					<a href="<?php echo site_url('employer/edit_job/').$r->job_url;?>"><i class="fa fa-pencil"></i> Ubah</a>
                     <a href="#" class="delete" data-toggle="modal" data-target=".delete-modal" data-record-id="<?php echo $r->job_id;?>"><i class="fa fa-remove"></i> Delete</a>
 				</td>
 			</tr>
@@ -82,7 +82,7 @@
 		</table>
 
 		<br>
-		<a href="<?php echo site_url('employer/post_job');?>" class="button">Add a Job</a>
+		<a href="<?php echo site_url('employer/post_job');?>" class="button">Tambahkan Pekerjaan</a>
 
 	</div>
 

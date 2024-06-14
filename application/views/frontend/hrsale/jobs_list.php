@@ -118,7 +118,7 @@
     <div class="five columns">        
         <!-- Category -->
 		<div class="widget">
-			<h4>Category</h4>
+			<h4>Kategori</h4>
 
             <ul class="footer-links search-categories">
 				<?php foreach($all_job_categories as $category):?>
@@ -132,7 +132,7 @@
 		</div>
         <!-- Job Type -->
 		<div class="widget">
-			<h4>Job Type</h4>
+			<h4>Jenis pekerjaan</h4>
 
 			<ul class="footer-links">
 				<?php foreach($all_job_types->result() as $job_type):?>

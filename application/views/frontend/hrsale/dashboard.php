@@ -3,10 +3,10 @@
 <div class="container">
   <div class="sixteen columns">
     <h2 class="my-acc-h2">Hello <strong><?php echo $employer[0]->first_name.' '.$employer[0]->last_name;?></strong></h2>
-    <p class="woocommerce-dashboard-welcome"> From your account dashboard you can view your jobs applications</a>, manage your <a href="<?php echo site_url('employer/manage_jobs');?>">jobs</a> and <a href="<?php echo site_url('employer/account');?>">edit your password and account details</a>.</p>
-    <p> To check your Job Listings and Applications visit <a href="<?php echo site_url('employer/manage_jobs');?>">Jobs Listings</a>.<br>
+    <p class="woocommerce-dashboard-welcome"> Dari dasbor akun Anda, Anda dapat melihat lamaran pekerjaan Anda</a>, kelola milikmu <a href="<?php echo site_url('employer/manage_jobs');?>">jobs</a> and <a href="<?php echo site_url('employer/account');?>">edit your password and account details</a>.</p>
+    <p> Untuk memeriksa Daftar Pekerjaan dan Lamaran Anda, kunjungi <a href="<?php echo site_url('employer/manage_jobs');?>">Daftar Pekerjaan</a>.<br>
     </p>
     <br>
-    <a href="<?php echo site_url('employer/post_job');?>" class="button">Add a Job</a> </div>
+    <a href="<?php echo site_url('employer/post_job');?>" class="button">Tambahkan Pekerjaan</a> </div>
 </div>
 <div class="margin-top-50"></div>

@@ -38,7 +38,7 @@
 
 				</fieldset>
 				<div id="result"></div>
-				<input type="submit" class="submit" id="submit" value="Send Message" />
+				<input type="submit" class="submit" id="submit" value="Kirim Pesan" />
 				<div class="clearfix"></div>
 				<div class="margin-bottom-40"></div>
 			<?php echo form_close(); ?>
@@ -66,8 +66,8 @@
 
 		<ul class="contact-informations second">
 			<li><i class="fa fa-phone"></i> <p>(021) 84312279</p></li>
-			<li><i class="fa fa-envelope"></i> <p>adm@ihbs.sch.id</p></li>
-			<li><i class="fa fa-globe"></i> <p>www.ihbs.sch.id</p></li>
+			<li><i class="fa fa-envelope"></i> <p>info@ihbs.or.id</p></li>
+			<li><i class="fa fa-globe"></i> <p>https://ihbs.sch.id</p></li>
 		</ul>
 
 	</div>

@@ -6,12 +6,13 @@
 
 		<div class="seven columns">
 			<h4>About</h4>
-			<p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
+			<p>IHBS adalah sekolah umum berbasis agama yang digagas sejak dini oleh Ustadz Zainal Abidin, Lc. MM. Sebagai Pembina Yayasan Dakwah Islam Cahaya Ilmu dan Ibnu Hajar Boarding School. IHBS sekolah yang berstandar nasional dengan dasar Al-Qur’an dan Sunnah Nabi muhammad sholallahu alaihi wassalam sesuai pemahaman salafus shalih.
+				Jenjang pendidikan di Ibnu Hajar terdiri dari KBTK, SD, SMP, SMA (putra dan putri) yang memiliki beberapa kampus yaitu : Kampus A,B,C di Jalan Mushola Fathul Ulum, Munjul Cipayung Jakarta Timur, Kampus D di Jl. Nakula 1 Harjamukti Cimanggis Depok, Kampus E di Jl. Bungur II Harjamukti Cimanggis Depok, Kampus F di Jl. Raya Pantura Sukra Indramayu Jawa Barat dan Kampus G di Sentul – Bogor Jawa Barat.</p>
             <?php $session = $this->session->userdata('c_user_id');?>
             <?php if(!$session):?>
-            <a class="button" href="<?php echo site_url('employer/signup');?>">Get Started</a>
+            <a class="button" href="<?php echo site_url('employer/signup');?>">Memulai</a>
             <?php else:?>
-            <a class="button" href="<?php echo site_url('employer/post_job');?>">Post a Job</a>
+            <a class="button" href="<?php echo site_url('employer/post_job');?>">Posting Pekerjaan</a>
             <?php endif;?>
 		</div>
 
