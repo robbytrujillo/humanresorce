@@ -3,7 +3,7 @@
   <div class="categories-group">
     <div class="container">
       <div class="four columns">
-        <h4>Job Categories</h4>
+        <h4>Kategori Pekerjaan</h4>
       </div>
       <?php foreach (array_chunk($all_job_categories, 20) as $row) { ?>
       <div class="four columns">

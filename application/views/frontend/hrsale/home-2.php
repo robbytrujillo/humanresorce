@@ -8,16 +8,16 @@
 				<img src="<?php echo base_url();?>skin/jobs/hrsale/images/banner-03.jpeg" alt="">
 
 				<div class="caption title sfb" data-x="center" data-y="195" data-speed="400" data-start="800"  data-easing="easeOutExpo">
-					<h2 >Mari bergabung bersama kami</h2>
+					<h2><span style="color: darkolivegreen; background: white">Mari bergabung bersama kami</span></h2>
 				</div>
 
 				<div class="caption text align-center sfb" data-x="center" data-y="270" data-speed="400" data-start="1200" data-easing="easeOutExpo">
 					<!-- <p><?php echo $company[0]->company_name;?> Memberdayakan SDM yang mampu menghasilkan sistem pendidikan dengan menghilangkan dikotomi  <br> dan sekulerisasi kurikulum Pendidikan Islam.</p> -->
-					<p>Memberdayakan SDM yang mampu menghasilkan sistem pendidikan dengan menghilangkan dikotomi  <br> dan sekulerisasi kurikulum Pendidikan Islam.</p>
+					<p><span style="color: black; background: white">SDM yang mampu menghasilkan sistem pendidikan dengan menghilangkan dikotomi  <br> dan sekulerisasi kurikulum Pendidikan Islam.</span> </p>
 				</div>
 
 				<div class="caption sfb" data-x="center" data-y="400" data-speed="400" data-start="1600" data-easing="easeOutExpo">
-					<a href="<?php echo site_url('employer/post_job');?>" class="slider-button">Posting Pekerjaan</a>
+					<a href="<?php echo site_url('employer/post_job');?>" class="slider-button" style="color: darkolivegreen"><b>Posting Pekerjaan</b></a>
 				</div>
 			</li>
 		</ul>

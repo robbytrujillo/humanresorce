@@ -143,7 +143,7 @@
 	<div class="container">
 		<div class="ten columns">
         	<?php if($this->router->fetch_method()=='categories') { ?>
-			<h2>All Categories</h2>
+			<h2>Semua Kategori</h2>
             <?php } else {?>
             	<?php if($this->uri->segment(3)=='category') {?>
                 <?php
