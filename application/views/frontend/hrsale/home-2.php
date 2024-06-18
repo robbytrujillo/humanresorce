@@ -11,7 +11,7 @@
 					<h2><span style="color: darkolivegreen; background: white">Mari bergabung bersama kami</span></h2>
 				</div>
 
-				<div class="caption text align-center sfb" data-x="center" data-y="270" data-speed="400" data-start="1200" data-easing="easeOutExpo" mb-2>
+				<div class="caption text align-center sfb" data-x="center" data-y="270" data-speed="400" data-start="1200" data-easing="easeOutExpo" mb-1>
 					<!-- <p><?php echo $company[0]->company_name;?> Memberdayakan SDM yang mampu menghasilkan sistem pendidikan dengan menghilangkan dikotomi  <br> dan sekulerisasi kurikulum Pendidikan Islam.</p> -->
 					<p><span style="color: black; background: white">SDM yang mampu menghasilkan sistem pendidikan dengan menghilangkan dikotomi  <br> dan sekulerisasi kurikulum Pendidikan Islam.</span> </p>
 				</div>
